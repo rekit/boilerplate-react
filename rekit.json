@@ -1,0 +1,7 @@
+{
+  "appType": "react",
+  "devPort": 3010,
+  "servePort": 3011,
+  "exclude": [".*", "tmp"],
+  "include": []
+}
