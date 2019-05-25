@@ -1,7 +1,6 @@
 {
   "appType": "react",
-  "devPort": 3010,
-  "servePort": 3011,
-  "exclude": [".*", "tmp"],
+  "rekitTest": true,
+  "exclude": ["tmp", "yarn.lock", "package-lock.json"],
   "include": []
 }
