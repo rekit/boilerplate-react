@@ -1,6 +1,6 @@
 {
   "appType": "react",
   "rekitTest": true,
-  "exclude": ["tmp", "yarn.lock", "package-lock.json"],
+  "exclude": [".*", "tmp", "yarn.lock", "package-lock.json"],
   "include": []
 }
