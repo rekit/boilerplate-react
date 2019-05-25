@@ -8,7 +8,7 @@ const prjPath = __dirname;
 
 function postCreate(args) {
     // Remove unnecessary files
-    ['.travis.yml', 'yarn.lock', 'LICENSE', 'package-lock.json']
+    ['.travis.yml', 'yarn.lock', 'diff.txt', 'LICENSE', 'package-lock.json']
         .map(f => path.join(prjPath, f))
         .forEach(file => fs.existsSync(file) && fs.unlinkSync(file));
     const name = _.kebabCase(args.name);

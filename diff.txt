@@ -1,0 +1,5 @@
+This text file records what's changes compared to official create-react-app:
+1. Installed cross-env
+2. Use cross-env PORT=3000 for start script in package.json so that user can change port easily.
+3. Use cross-env CI=true for test script in package.json so that rekit test plugin works.
+4. Added postCreate.js
